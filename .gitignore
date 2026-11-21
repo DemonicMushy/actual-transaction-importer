@@ -1,0 +1,14 @@
+node_modules/
+.pnpm-store/
+.actual-cache/
+.venv/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+output/
+
+# Source statements and other financial records stay local.
+pdfs/
+

@@ -1,0 +1,27 @@
+{
+  "source": "example-bank-card-ending-1234",
+  "account_name": "My Credit Card",
+  "transactions": [
+    {
+      "source_id": "statement-transaction-0001",
+      "date": "2026-10-03",
+      "amount": "42.50",
+      "direction": "outflow",
+      "payee": "Example Supermarket",
+      "notes": "Weekly groceries",
+      "cleared": true
+    },
+    {
+      "date": "2026-10-05",
+      "amount": -12.34,
+      "payee": "Example Coffee",
+      "raw_description": "EXAMPLE COFFEE #123 SINGAPORE"
+    },
+    {
+      "date": "2026-10-08",
+      "amount": "100.00",
+      "direction": "inflow",
+      "payee": "Card payment"
+    }
+  ]
+}

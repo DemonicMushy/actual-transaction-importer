@@ -1,0 +1,19 @@
+{
+  "name": "actual-transaction-importer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Import a normalized transaction list into Actual Budget with deduplication.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "audit:maybank": "node src/audit-maybank-rules.mjs",
+    "import": "node src/import-transactions.mjs",
+    "maybank": "node src/import-maybank-statement.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@actual-app/api": "26.11.0"
+  }
+}
